@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ship"
+    tools:context=".Crew">
+
+
+    <Button
+        android:id="@+id/b111"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="222"
+        android:background="#3F51B5"
+        android:text="Click to Enter your details "
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    />
+
+    <Button
+        android:id="@+id/b222"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="222"
+        android:background="#3F51B5"
+        android:text="Click Back to Hombage"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
